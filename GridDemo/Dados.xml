@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<Funcionarios xmlns="http://tempuri.org/DataSet1.xsd">
+  <xs:schema id="Funcionarios" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="Funcionarios" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Funcionario">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Nome" type="xs:string" minOccurs="0" />
+                <xs:element name="Salario" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DataContratacao" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Reajuste" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Funcionario>
+    <Nome>Emerson</Nome>
+    <Salario>1000</Salario>
+    <DataContratacao>2018-11-12T00:00:00-02:00</DataContratacao>
+    <Reajuste>0</Reajuste>
+  </Funcionario>
+  <Funcionario>
+    <Nome>Raul Seixas</Nome>
+    <Salario>35000</Salario>
+    <DataContratacao>1989-08-21T00:00:00-02:00</DataContratacao>
+    <Reajuste>35</Reajuste>
+  </Funcionario>
+  <Funcionario>
+    <Nome>Didi Mocó</Nome>
+    <Salario>2800</Salario>
+    <DataContratacao>1990-07-14T00:00:00-02:00</DataContratacao>
+    <Reajuste>35</Reajuste>
+  </Funcionario>
+  <Funcionario>
+    <Nome>Mussum</Nome>
+    <Salario>3200</Salario>
+    <DataContratacao>2010-07-14T00:00:00-02:00</DataContratacao>
+    <Reajuste>21</Reajuste>
+  </Funcionario>
+</Funcionarios>
